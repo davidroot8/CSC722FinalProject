@@ -35,3 +35,5 @@ RCNN- fewshot
 Make sure you have the tensor dataset for Pascal-VOC-2012 
 Run all cells in ResNetFSL.ipynb
 
+
+Additionally, we implemented and tested the following few shot object detector: https://github.com/ucbdrive/few-shot-object-detection
