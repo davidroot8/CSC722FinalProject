@@ -1,7 +1,9 @@
 All of this code was tested using Ubuntu on WSL
 
+Python version is 3.10
+
 Set up a virtualenv
-Make sure graphics drivers are up to date, including CUDNN
+Make sure graphics drivers and cpu drivers are up to date, including CUDA and CUDNN
 Install requirements.txt
 Make sure latest version of torch from this website is downloaded for the correct computer: https://pytorch.org/get-started/locally/
 
@@ -20,12 +22,14 @@ Run all cells in ResNet.ipynb. This will output to runs folder
 
 Use the following command in terminal and launch the localhost output on a browser to see the results
 tensorboard --logdir=./
+lots of the code was taken from the lightning API: https://lightning.ai/docs/pytorch/stable/starter/introduction.html
 
 
 SSD
 
 Open ssd.ipynb
 Make sure that the version of Pascal VOC in the folder is the COCO version, may need to rename the files in cell 3
+The code from ssd.ipynb was heavily inspired by the code taken from https://github.com/cjf8899/SSD_ResNet_Pytorch
 
 run all cells in ssd.ipynb
 
