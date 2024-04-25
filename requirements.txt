@@ -1,0 +1,10 @@
+torch
+torchvision
+pytorch-lightning
+numpy
+matplotlib
+cocoapi  # Instead of pycocotools (more common package name)
+shutil
+collections
+random
+os
