@@ -1,0 +1,24 @@
+names:
+- person
+- chair
+- car
+- dog
+- bottle
+- cat
+- bird
+- pottedplant
+- sheep
+- boat
+- aeroplane
+- tvmonitor
+- sofa
+- bicycle
+- horse
+- diningtable
+- motorbike
+- cow
+- train
+- bus
+nc: 20
+train: Pascal-VOC-2012-1-yolov8/train
+val: Pascal-VOC-2012-1-yolov8/valid
